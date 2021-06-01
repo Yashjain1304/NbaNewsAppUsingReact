@@ -1,0 +1,51 @@
+.postContainer {
+  width: 90%;
+  margin: 0 auto;
+  height: 100vh;
+  padding-top: 50px;
+  transform: translateY(-10%);
+  /* text-align: center; */
+}
+.postContainer h2 {
+  margin-top: 10%;
+  font-weight: 700;
+  text-align: center;
+  font-size: 40px;
+}
+.postContainer input {
+  font-size: 20px;
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px 10px;
+  box-sizing: border-box;
+  font-weight: 300;
+}
+.postContainer button {
+  background-color: rgba(0, 252, 239, 0.671);
+  font-size: 20px;
+  padding: 10px;
+  color: #fff;
+  margin-top: 10px;
+  width: 20%;
+}
+.error {
+  margin-top: 10px;
+  padding: 10px;
+  color: red;
+  font-size: 16px;
+  font-style: italic;
+}
+.postContainer select {
+  font-size: 20px;
+  margin-top: 10px;
+  width: 20%;
+  padding: 10px;
+}
+@media screen and (max-width: 400px) {
+  .postContainer select {
+    width: 100%;
+  }
+  .postContainer button {
+    width: 100%;
+  }
+}

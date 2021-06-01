@@ -1,0 +1,38 @@
+.logContainer {
+  width: 80%;
+  margin: 0 auto;
+  height: 100vh;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-10%);
+}
+.logContainer h2 {
+  font-weight: 700;
+  text-align: center;
+  font-size: 40px;
+}
+.logContainer input {
+  font-size: 30px;
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px 10px;
+  box-sizing: border-box;
+  font-weight: 300;
+}
+.logContainer button {
+  background-color: aqua;
+  font-size: 20px;
+  padding: 10px;
+  color: #fff;
+  margin-top: 10px;
+  width: 100%;
+}
+.error {
+  margin-top: 10px;
+  padding: 10px;
+  color: red;
+  font-size: 16px;
+  font-style: italic;
+}
